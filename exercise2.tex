@@ -1,11 +1,50 @@
 \documentclass{article}
-\usepackage{hyperref}
+\usepackage{multirow}
 \begin{document}
 
-Machine Learning Exercise - 2 \\
-Saurabh J.
+\begin{center}
+    \huge Machine Learning Exercise - 1 
+    \vspace{10px} 
+    \\
+    \Large Saurabh Jondhale - 3574931
+    \\
+    \Large st1802882@stud.uni-stuttgart.de
+\end{center}
 
-Task 1
-a
+\section{Task-1}
+
+ \begin{tabular}{ |p{1cm}|p{3cm}|p{3cm}|p{3cm}|  }
+ \hline
+ \multicolumn{4}{|c|}{Handling Missing data} \\
+ \hline
+ ID& Age &Income(k) &Owns Cars\\
+ \hline
+ 1&25&50&Yes\\
+ 2&33.75&40&No\\
+ 3&35&55&Yes\\
+ 4&45&70&Yes\\
+ 5&30&60&No\\
+ 
+ \hline
+\end{tabular}
+\newline
+\noindent
+\begin{tabular}{ |p{1cm}|p{3cm}|p{4cm}|p{3cm}|  }
+    \hline
+    \multicolumn{4}{|c|}{Handling Missing data} \\
+    \hline
+   ID& Number of Vehicles &Preferred transport mode  &Income scaled\\
+    \hline
+    1&2&Car&0.333333\\
+    2&0&Public Transport&0.000000\\
+    3&1&Car&0.500000\\
+    4&0&Car&1.000000\\
+    5&0&Bike&0.666667\\
+    
+    \hline
+\end{tabular}
+
+\end{document}
+
 
 \end{document}
